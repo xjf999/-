@@ -4,7 +4,9 @@
             <div class="sercher__back iconfont" @click="handleBack">&#xe6db;</div>
             <div class="seacher__content">
                 <span class="seacher__content__icon iconfont">&#xeafe;</span>
+                <router-link to="/search">
                 <input class="seacher__content__input" placeholder="杰杰土鸡营养又美味 妈妈我爱 嘿嘿嘿！！！"/>
+                </router-link>
             </div>
         </div>
         <shopInfo class="shop" :item="data.item" />

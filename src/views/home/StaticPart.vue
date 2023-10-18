@@ -6,7 +6,9 @@
     </div>
       <div class="seacher">
         <span class="iconfont">&#xeafe;</span>
+        <router-link to="/search">
         <input type="text" placeholder="吉水卧龙肖豪杰限时特价啦" class="seacher_input" />
+        </router-link>
       </div>
       <div class="banner">
         <img class="banner__img" src="http://www.dell-lee.com/imgs/vue3/banner.jpg"/>
